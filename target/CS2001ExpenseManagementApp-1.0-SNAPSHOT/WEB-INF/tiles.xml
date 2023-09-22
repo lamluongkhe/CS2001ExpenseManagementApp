@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="baseLayout"
+                template="/WEB-INF/layout/base.jsp">
+        
+        <put-attribute name="title" value="" />
+        <put-attribute name="header"
+                       value="/WEB-INF/layout/header.jsp" />
+        
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer"
+                       value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    
+    <definition name="index" extends="baseLayout">
+        <put-attribute name="title" value="Trang chủ" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/index.jsp" /> 
+    </definition>
+    
+    <definition name="transactions" extends="baseLayout">
+        <put-attribute name="title" value="Quan Li Chi Tieu" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/transactions.jsp" /> 
+    </definition>
+    
+    <definition name="login" extends="baseLayout">
+        <put-attribute name="title" value="Login Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/login.jsp" /> 
+    </definition>
+    
+    <definition name="register" extends="baseLayout">
+        <put-attribute name="title" value="SignUp Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/register.jsp" /> 
+    </definition>
+    
+    <definition name="dashboards" extends="baseLayout">
+        <put-attribute name="title" value="Dashboard Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/dashboard.jsp" /> 
+    </definition>
+    
+    <definition name="incomes" extends="baseLayout">
+        <put-attribute name="title" value="Income Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/income.jsp" /> 
+    </definition>
+    
+    <definition name="incomeadd" extends="baseLayout">
+        <put-attribute name="title" value="Incomeadd Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/incomeadd.jsp" /> 
+    </definition>
+    
+    <definition name="expenses" extends="baseLayout">
+        <put-attribute name="title" value="Expense Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/expense.jsp" /> 
+    </definition>
+    
+    <definition name="expenseadd" extends="baseLayout">
+        <put-attribute name="title" value="Expenseadd Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/expenseadd.jsp" /> 
+    </definition>
+    
+    <definition name="formusers" extends="baseLayout">
+        <put-attribute name="title" value="FormUsers Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/formuser.jsp" /> 
+    </definition>
+    
+    <definition name="formuserupdate" extends="baseLayout">
+        <put-attribute name="title" value="FormUsers Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/formuserupdate.jsp" /> 
+    </definition>
+  
+    <definition name="viewTrans" extends="baseLayout">
+        <put-attribute name="title" value="View Transaction Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/viewtransaction.jsp" /> 
+    </definition>
+    
+    <definition name="groups" extends="baseLayout">
+        <put-attribute name="title" value="Group Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/group.jsp" /> 
+    </definition>
+    <definition name="groupadd" extends="baseLayout">
+        <put-attribute name="title" value="Detail Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/groupadd.jsp" /> 
+    </definition>
+    
+
+    <definition name="details" extends="baseLayout">
+        <put-attribute name="title" value="Detail Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/details.jsp" /> 
+    </definition>
+    
+    <definition name="detailAdd" extends="baseLayout">
+        <put-attribute name="title" value="Detail Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/detailsadd.jsp" /> 
+    </definition>
+    
+    <definition name="grouptrans" extends="baseLayout">
+        <put-attribute name="title" value="Detail Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/grouptrans.jsp" /> 
+    </definition>
+    
+    <definition name="groupaddtran" extends="baseLayout">
+        <put-attribute name="title" value="Detail Page" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/groupaddtran.jsp" /> 
+    </definition>
+    
+
+</tiles-definitions>
+
+
